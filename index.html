@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arim Shrestha</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(90deg, #c2a3ff, #ffc9ea, #d1c4ef);
+            background-size: 400% 400%;
+            animation: gradientFlow 15s ease infinite;
+            position: relative;
+        }
+
+        @keyframes gradientFlow {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .box {
+            position: relative;
+            z-index: 999;
+            background: rgba(0, 0, 0, 0.9);
+            color: gold;
+            padding: 30px 40px;
+            max-width: 50%;
+            margin: 0 auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 215, 0, 0.3);
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+            backdrop-filter: blur(6px);
+        }
+
+        .img {
+            width: 100px;
+            height: 100px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.6rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 0.8rem;
+        }
+
+        h4 {
+            margin-top: 1.4rem;
+            font-weight: normal;
+            color: #ffe066;
+            font-size: 1rem;
+        }
+
+        .emoji {
+            position: absolute;
+            font-size: 2rem;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* More exaggerated and longer zig-zag animations */
+        @keyframes floatCrazy {
+            0% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+
+            20% {
+                transform: translate(-50px, -100px);
+            }
+
+            40% {
+                transform: translate(50px, 200px);
+            }
+
+            60% {
+                transform: translate(-60px, -150px);
+            }
+
+            80% {
+                transform: translate(60px, 250px);
+            }
+
+            100% {
+                transform: translate(0, -300px);
+                opacity: 0;
+            }
+        }
+
+        /* Random positions and delays */
+        .emoji:nth-of-type(n) {
+            animation: floatCrazy 12s ease-in-out infinite;
+        }
+
+        /* Random vertical positions */
+        .emoji:nth-of-type(1) {
+            top: 5%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+
+        .emoji:nth-of-type(2) {
+            top: 20%;
+            left: 10%;
+            animation-delay: 1s;
+        }
+
+        .emoji:nth-of-type(3) {
+            top: 80%;
+            left: 15%;
+            animation-delay: 2s;
+        }
+
+        .emoji:nth-of-type(4) {
+            top: 40%;
+            left: 20%;
+            animation-delay: 0.5s;
+        }
+
+        .emoji:nth-of-type(5) {
+            top: 60%;
+            left: 25%;
+            animation-delay: 1.5s;
+        }
+
+        .emoji:nth-of-type(6) {
+            top: 10%;
+            left: 30%;
+            animation-delay: 2.5s;
+        }
+
+        .emoji:nth-of-type(7) {
+            top: 70%;
+            left: 35%;
+            animation-delay: 3s;
+        }
+
+        .emoji:nth-of-type(8) {
+            top: 30%;
+            left: 40%;
+            animation-delay: 0.8s;
+        }
+
+        .emoji:nth-of-type(9) {
+            top: 50%;
+            left: 45%;
+            animation-delay: 1.2s;
+        }
+
+        .emoji:nth-of-type(10) {
+            top: 5%;
+            left: 50%;
+            animation-delay: 2.2s;
+        }
+
+        .emoji:nth-of-type(11) {
+            top: 85%;
+            left: 55%;
+            animation-delay: 3.2s;
+        }
+
+        .emoji:nth-of-type(12) {
+            top: 15%;
+            left: 60%;
+            animation-delay: 1.8s;
+        }
+
+        .emoji:nth-of-type(13) {
+            top: 65%;
+            left: 65%;
+            animation-delay: 0.4s;
+        }
+
+        .emoji:nth-of-type(14) {
+            top: 35%;
+            left: 70%;
+            animation-delay: 1.3s;
+        }
+
+        .emoji:nth-of-type(15) {
+            top: 45%;
+            left: 75%;
+            animation-delay: 2.8s;
+        }
+
+        .emoji:nth-of-type(16) {
+            top: 25%;
+            left: 80%;
+            animation-delay: 0.3s;
+        }
+
+        .emoji:nth-of-type(17) {
+            top: 75%;
+            left: 85%;
+            animation-delay: 1.6s;
+        }
+
+        .emoji:nth-of-type(18) {
+            top: 10%;
+            left: 90%;
+            animation-delay: 3.3s;
+        }
+
+        .emoji:nth-of-type(19) {
+            top: 50%;
+            left: 95%;
+            animation-delay: 0.6s;
+        }
+
+        .emoji:nth-of-type(20) {
+            top: 90%;
+            left: 3%;
+            animation-delay: 1.9s;
+        }
+
+        .emoji:nth-of-type(21) {
+            top: 60%;
+            left: 8%;
+            animation-delay: 2.7s;
+        }
+
+        .emoji:nth-of-type(22) {
+            top: 20%;
+            left: 18%;
+            animation-delay: 3.5s;
+        }
+
+        .emoji:nth-of-type(23) {
+            top: 85%;
+            left: 28%;
+            animation-delay: 0.7s;
+        }
+
+        .emoji:nth-of-type(24) {
+            top: 35%;
+            left: 38%;
+            animation-delay: 1.4s;
+        }
+
+        .emoji:nth-of-type(25) {
+            top: 25%;
+            left: 48%;
+            animation-delay: 2.4s;
+        }
+
+        .emoji:nth-of-type(26) {
+            top: 70%;
+            left: 58%;
+            animation-delay: 3.1s;
+        }
+
+        .emoji:nth-of-type(27) {
+            top: 15%;
+            left: 68%;
+            animation-delay: 1.1s;
+        }
+
+        .emoji:nth-of-type(28) {
+            top: 45%;
+            left: 78%;
+            animation-delay: 2.1s;
+        }
+
+        .emoji:nth-of-type(29) {
+            top: 55%;
+            left: 88%;
+            animation-delay: 3.6s;
+        }
+
+        .emoji:nth-of-type(30) {
+            top: 65%;
+            left: 98%;
+            animation-delay: 0.2s;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            h4 {
+                font-size: 0.9rem;
+            }
+
+            .box {
+                padding: 20px;
+                max-width: 75%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Portfolio Under Construction</h1>
+        <img class="img" src="work-in-progress.png" alt="Construction">
+        <p>Arim Shrestha</p>
+    </div>
+
+    <!-- 30 Floating Emojis -->
+    <div class="emoji">🎉</div>
+    <div class="emoji">🎈</div>
+    <div class="emoji">🎊</div>
+    <div class="emoji">🎂</div>
+    <div class="emoji">🥳</div>
+    <div class="emoji">🍾</div>
+    <div class="emoji">🎁</div>
+    <div class="emoji">✨</div>
+    <div class="emoji">🪅</div>
+    <div class="emoji">🕺</div>
+    <div class="emoji">💃</div>
+    <div class="emoji">🎇</div>
+    <div class="emoji">🎆</div>
+    <div class="emoji">🎵</div>
+    <div class="emoji">🎶</div>
+    <div class="emoji">🪩</div>
+    <div class="emoji">🎭</div>
+    <div class="emoji">🎠</div>
+    <div class="emoji">🧁</div>
+    <div class="emoji">🎐</div>
+    <div class="emoji">🧨</div>
+    <div class="emoji">🎬</div>
+    <div class="emoji">🦄</div>
+    <div class="emoji">🎯</div>
+    <div class="emoji">🍿</div>
+    <div class="emoji">🪄</div>
+    <div class="emoji">🧸</div>
+    <div class="emoji">🛍️</div>
+    <div class="emoji">🛼</div>
+    <div class="emoji">🪙</div>
+</body>
+</html>
