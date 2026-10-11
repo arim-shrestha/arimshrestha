@@ -1,0 +1,12 @@
+{
+  "name": "Arim Shrestha",
+  "title": "Full Stack Developer",
+  "tagline": "I design and build dependable products across web, e-commerce, native mobile, and desktop—plus Adobe extensions and plugins that streamline creative workflows.",
+  "location": "Hatigauda, Kathmandu, Nepal",
+  "statusLabel": "Available",
+  "experienceYears": "8+",
+  "platformCount": 5,
+  "roleCount": 3,
+  "resumeUrl": "/arim-shrestha-cv.pdf",
+  "stack": ["React.js", "React Native", "SwiftUI", "Electron.js", "Node.js", "Nest.js", "TypeScript", "WordPress", "Shopify", "Adobe UXP & CEP"]
+}

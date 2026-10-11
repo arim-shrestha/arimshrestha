@@ -1,0 +1,167 @@
+{
+  "eyebrow": "Experience",
+  "titleLead": "8+ years",
+  "titleAccent": "building software",
+  "description": "A career spanning mobile-first development, e-commerce, cross-platform delivery, and full-stack product engineering.",
+  "overviewLabel": "Career overview",
+  "overviewTitle": "From mobile foundations to full-stack products",
+  "overviewPrompt": "Select a role or scroll to explore the journey",
+  "careerRange": "2018 — 2026",
+  "journey": "A continuous path across web, e-commerce, mobile, desktop, and creative tools.",
+  "latestLabel": "Most recent",
+  "impactLabel": "Selected impact",
+  "toolsLabel": "Tools & platforms",
+  "toolsDescription": "Core technologies used in this role.",
+  "metaLabels": {
+    "period": "Period",
+    "employment": "Employment",
+    "workplace": "Work style",
+    "location": "Location"
+  },
+  "platforms": ["Web", "E-commerce", "Mobile", "Desktop", "Creative tools"],
+  "stats": [
+    { "value": "8+", "label": "Years of experience" },
+    { "value": "3", "label": "Professional roles" },
+    { "value": "5", "label": "Product platforms" }
+  ],
+  "contributionArchive": {
+    "visible": false,
+    "eyebrow": "GitHub profiles",
+    "title": "Two profiles, one development journey",
+    "description": "Switch between my office and personal GitHub contribution archives.",
+    "officeTabLabel": "Office GitHub",
+    "personalTabLabel": "Personal GitHub",
+    "context": "Katsumok Co. Ltd. | Gamenic Nalamiz Tech",
+    "profileLabel": "View gamenic-arim on GitHub",
+    "profileUrl": "https://github.com/gamenic-arim",
+    "personalProfile": {
+      "username": "arimshrestha",
+      "profileLabel": "View arimshrestha on GitHub",
+      "profileUrl": "https://github.com/arimshrestha",
+      "avatar": "/images/github-activity/personal-profile.webp",
+      "alt": "GitHub avatar for arimshrestha",
+      "bio": "Frontend Developer | Backend Developer | Mobile App Developer | Desktop App Developer",
+      "location": "Kathmandu, Nepal",
+      "joined": "Member since May 2018",
+      "defaultYear": 2026,
+      "years": [
+        {
+          "year": 2026,
+          "contributions": "285 contributions",
+          "image": "/images/github-activity/personal-2026.webp",
+          "alt": "GitHub profile showing 285 contributions for arimshrestha in 2026"
+        },
+        {
+          "year": 2025,
+          "contributions": "532 contributions",
+          "image": "/images/github-activity/personal-2025.webp",
+          "alt": "GitHub profile showing 532 contributions for arimshrestha in 2025"
+        },
+        {
+          "year": 2018,
+          "contributions": "1 contribution",
+          "image": "/images/github-activity/personal-2018.webp",
+          "alt": "GitHub profile showing 1 contribution for arimshrestha in 2018"
+        }
+      ]
+    },
+    "defaultYear": 2024,
+    "years": [
+      {
+        "year": 2026,
+        "contributions": "1,321 contributions",
+        "image": "/images/github-activity/2026.webp",
+        "alt": "GitHub profile showing 1,321 contributions for gamenic-arim in 2026"
+      },
+      {
+        "year": 2025,
+        "contributions": "2,007 contributions",
+        "image": "/images/github-activity/2025.webp",
+        "alt": "GitHub profile showing 2,007 contributions for gamenic-arim in 2025"
+      },
+      {
+        "year": 2024,
+        "contributions": "4,250 contributions",
+        "image": "/images/github-activity/2024.webp",
+        "alt": "GitHub profile showing 4,250 contributions for gamenic-arim in 2024"
+      },
+      {
+        "year": 2023,
+        "contributions": "3,869 contributions",
+        "image": "/images/github-activity/2023.webp",
+        "alt": "GitHub profile showing 3,869 contributions for gamenic-arim in 2023"
+      },
+      {
+        "year": 2022,
+        "contributions": "3,356 contributions",
+        "image": "/images/github-activity/2022.webp",
+        "alt": "GitHub profile showing 3,356 contributions for gamenic-arim in 2022"
+      },
+      {
+        "year": 2021,
+        "contributions": "3,924 contributions",
+        "image": "/images/github-activity/2021.webp",
+        "alt": "GitHub profile showing 3,924 contributions for gamenic-arim in 2021"
+      },
+      {
+        "year": 2020,
+        "contributions": "2,541 contributions",
+        "image": "/images/github-activity/2020.webp",
+        "alt": "GitHub profile showing 2,541 contributions for gamenic-arim in 2020"
+      },
+      {
+        "year": 2019,
+        "contributions": "1,614 contributions",
+        "image": "/images/github-activity/2019.webp",
+        "alt": "GitHub profile showing 1,614 contributions for gamenic-arim in 2019"
+      }
+    ]
+  },
+  "items": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Gamenic Nalamiz Tech",
+      "type": "Full-time",
+      "workplace": "Hybrid · office / Remote",
+      "duration": "Dec 2019 – Oct 2026",
+      "location": "Bhaktapur, Nepal",
+      "description": [
+        "Developed web, mobile, and desktop applications using React.js, React Native, Electron.js, and modern JavaScript technologies.",
+        "Integrated REST APIs, AWS, and Firebase services for cloud hosting, authentication, and real-time data synchronization.",
+        "Worked on Adobe/Photoshop plugin development, performance optimization, and scalable frontend architecture."
+      ],
+      "technologies": ["React.js", "React Native", "Node.js", "Swift", "Electron.js", "AWS", "Firebase", "Adobe plugins"],
+      "order": 0
+    },
+    {
+      "title": "Mobile App Developer / React Native Developer",
+      "company": "Katsumok Co. Ltd.",
+      "type": "Full-time",
+      "workplace": "Remote",
+      "duration": "May 2019 – Nov 2019",
+      "location": "Japan",
+      "description": [
+        "Led the development of mobile applications for Android and iOS using React Native.",
+        "Built reusable components, integrated REST APIs, and improved application performance.",
+        "Collaborated with the team to develop, test, and maintain mobile app features based on project requirements."
+      ],
+      "technologies": ["React Native", "REST APIs", "Android", "iOS"],
+      "order": 1
+    },
+    {
+      "title": "React Native Developer",
+      "company": "Policy Nepal Pvt. Ltd.",
+      "type": "Internship (3 months) → Full-time",
+      "workplace": "On-site",
+      "duration": "May 2018 – Apr 2019",
+      "location": "Kathmandu, Nepal",
+      "description": [
+        "Developed mobile applications using React Native for Android and iOS platforms.",
+        "Worked on responsive mobile UI, API integration, debugging, and application performance improvements.",
+        "Collaborated with the team to implement new features and maintain a smooth user experience across mobile devices."
+      ],
+      "technologies": ["React Native", "REST APIs", "Android", "iOS"],
+      "order": 2
+    }
+  ]
+}

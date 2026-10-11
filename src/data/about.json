@@ -1,0 +1,32 @@
+{
+  "eyebrow": "About",
+  "titleLead": "A product-minded developer",
+  "titleAccent": "with a wide technical range",
+  "bio": "With 8+ years of professional experience, I design and build dependable applications across web, e-commerce, native mobile, and desktop. My work spans user-facing interfaces, backend services, WordPress and Shopify solutions, cloud integrations, and specialized Adobe tooling.",
+  "focusText": "I focus on scalable architecture, dependable performance, and software that remains clear and useful for the people working with it.",
+  "footerText": "Full Stack Developer building dependable products across web, e-commerce, native mobile, desktop, and Adobe creative tools.",
+  "locationLabel": "Hatigauda, Kathmandu, Nepal",
+  "availabilityLabel": "Web · E-commerce · Native Mobile · Desktop · Adobe",
+  "highlights": [
+    {
+      "icon": "code",
+      "title": "Web, Commerce & Cross-platform",
+      "desc": "Production applications with React.js, WordPress, Shopify, React Native, SwiftUI, and Electron.js."
+    },
+    {
+      "icon": "api",
+      "title": "Full Stack Development",
+      "desc": "Building end-to-end products with Node.js, Nest.js, and TypeScript."
+    },
+    {
+      "icon": "plugin",
+      "title": "Adobe Extensions & Plugins",
+      "desc": "After Effects extensions and Photoshop plugins built with UXP and CEP."
+    },
+    {
+      "icon": "education",
+      "title": "Bachelor in Information Management",
+      "desc": "Asian School of Management and Technology, Kathmandu · 2014–2018."
+    }
+  ]
+}

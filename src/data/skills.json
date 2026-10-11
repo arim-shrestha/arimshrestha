@@ -1,0 +1,53 @@
+{
+  "eyebrow": "Skills",
+  "titleLead": "Technologies I",
+  "titleAccent": "work with",
+  "description": "Tools and technologies I use to build web apps, e-commerce experiences, native mobile apps, desktop software, and Adobe creative extensions.",
+  "categories": [
+    {
+      "category": "Frontend",
+      "skills": ["React.js", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Material UI", "Redux", "Responsive UI"],
+      "order": 0
+    },
+    {
+      "category": "Backend",
+      "skills": ["Node.js", "Nest.js", "REST API Development", "API Integration"],
+      "order": 1
+    },
+    {
+      "category": "Database",
+      "skills": ["MySQL", "PostgreSQL"],
+      "order": 2
+    },
+    {
+      "category": "Mobile Development",
+      "skills": ["React Native", "SwiftUI"],
+      "order": 3
+    },
+    {
+      "category": "Desktop Development",
+      "skills": ["Electron.js"],
+      "order": 4
+    },
+    {
+      "category": "Cloud & Deployment",
+      "skills": ["AWS Amplify", "Firebase", "Appwrite", "cPanel", "VPS Hosting"],
+      "order": 5
+    },
+    {
+      "category": "Adobe Extensions & Plugins",
+      "skills": ["Adobe UXP", "Adobe CEP"],
+      "order": 6
+    },
+    {
+      "category": "Tools & Creative",
+      "skills": ["Git", "GitHub", "After Effects", "Photoshop"],
+      "order": 7
+    },
+    {
+      "category": "CMS & E-commerce",
+      "skills": ["WordPress", "Shopify"],
+      "order": 8
+    }
+  ]
+}

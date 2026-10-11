@@ -1,0 +1,252 @@
+{
+  "eyebrow": "Selected projects",
+  "titleLead": "Work across",
+  "titleAccent": "every chapter",
+  "description": "Browse project case studies by the context in which the work was created.",
+  "tabsLabel": "Project categories",
+  "tabs": [
+    {
+      "id": "freelance",
+      "label": "Freelance Projects",
+      "isVisible": true,
+      "emptyTitle": "Freelance project stories are being prepared",
+      "emptyMessage": "Independent and client project details will be added here."
+    },
+    {
+      "id": "katsumok-gamenic",
+      "label": "Katsumok / Gamenic",
+      "isVisible": false,
+      "emptyTitle": "Company project stories are being prepared",
+      "emptyMessage": "Selected project details from Katsumok Co. Ltd. and Gamenic Nalamiz Tech will be added here."
+    },
+    {
+      "id": "policy-nepal",
+      "label": "Policy Nepal",
+      "isVisible": false,
+      "emptyTitle": "Policy Nepal project stories are being prepared",
+      "emptyMessage": "Selected project details from Policy Nepal Pvt. Ltd. will be added here."
+    }
+  ],
+  "profileUrl": "",
+  "profileButtonLabel": "GitHub Profile",
+  "viewAllLabel": "View All Projects",
+  "items": [
+    {
+      "category": "freelance",
+      "title": "ARFORGETECH",
+      "description": "A full-stack technology-services platform that guides clients into professional help, academic project support, and company-specific solution requests. The project includes account flows, structured enquiry forms, responsive service content, production deployment tooling, and search-engine optimization for the Nepal market.",
+      "status": "Live",
+      "location": "Nepal",
+      "services": ["Full-stack development", "Responsive web design", "SEO", "Deployment"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "Docker", "SEO"],
+      "github": "",
+      "live": "https://arforgetech.com/",
+      "isVisible": false,
+      "featured": true,
+      "image": "/images/projects/arforgetech.webp",
+      "video": "",
+      "order": 99
+    },
+    {
+      "category": "freelance",
+      "title": "Barista Bee Coffee School",
+      "description": "A course-discovery and booking platform for a Perth coffee school, built around small-group barista training. It supports course scheduling, secure Stripe payments, coupons, booking administration, automated reminders, certificate generation and verification, editable site content, and SEO-focused public pages.",
+      "status": "Live",
+      "location": "Australia",
+      "services": ["Course booking", "Online payments", "Admin portal", "SEO"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "Stripe", "SEO"],
+      "github": "",
+      "live": "https://baristabeeschool.com/",
+      "isVisible": true,
+      "featured": true,
+      "image": "/images/projects/barista-bee.webp",
+      "video": "",
+      "order": 2
+    },
+    {
+      "category": "freelance",
+      "title": "Bliss Momos Cafe",
+      "description": "A full-stack café website and reservation system for an Australian venue. Visitors can explore the café and menu, send enquiries, and reserve tables, while staff manage reservations through a calendar-led admin area with users, roles, permissions, email forwarding, and soft-delete recovery workflows.",
+      "status": "Delivered",
+      "location": "Australia",
+      "services": ["Website", "Reservations", "Admin portal", "SEO"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "Material UI", "SEO"],
+      "github": "",
+      "live": "",
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/bliss-momos.webp",
+      "video": "",
+      "order": 3
+    },
+    {
+      "category": "freelance",
+      "title": "Fotoghar",
+      "description": "A media-production portfolio and enquiry platform for photography, film, live streaming, multi-camera production, post-production, studio work, and wedding services. The system includes portfolio management, bookings, consultations, quotes, newsletter subscriptions, editable page content, and an administrative workflow.",
+      "status": "Delivered",
+      "location": "Nepal",
+      "services": ["Portfolio platform", "Bookings", "Content management", "SEO"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "Firebase", "SEO"],
+      "github": "",
+      "live": "",
+      "isVisible": true,
+      "featured": true,
+      "image": "/images/projects/fotoghar.webp",
+      "video": "/images/projects/fotoghar-reel.mp4",
+      "order": 4
+    },
+    {
+      "category": "freelance",
+      "title": "Go Roka Land",
+      "description": "A responsive land and property acquisition website designed to explain the buying process, build trust, and convert visitor interest into qualified enquiries. It includes protected administration, contact management, email forwarding, anti-bot validation, and SEO-oriented public content for the US market.",
+      "status": "Delivered",
+      "location": "USA",
+      "services": ["Lead-generation website", "Admin portal", "Email workflows", "SEO"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "reCAPTCHA", "SEO"],
+      "github": "",
+      "live": "",
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/go-roka-land.webp",
+      "video": "",
+      "order": 5
+    },
+    {
+      "category": "freelance",
+      "title": "Holistic Minds Life Celebration",
+      "description": "A WordPress presence for holistic wellbeing, healing, counselling, meditation, and personal-development services in Nepal. The engagement covered site setup, content presentation, responsive pages, and search-engine optimization.",
+      "status": "Delivered",
+      "location": "Nepal",
+      "services": ["WordPress development", "Content setup", "Responsive design", "SEO"],
+      "tech": ["WordPress", "PHP", "SEO"],
+      "github": "",
+      "live": "https://holisticminds.com.np/",
+      "links": [
+        { "label": "Website", "url": "https://holisticminds.com.np/" }
+      ],
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/holistic-minds.webp",
+      "video": "",
+      "order": 6
+    },
+    {
+      "category": "freelance",
+      "title": "Kurakani Cafe",
+      "description": "A full-stack café ordering experience with account authentication, a browsable menu, product options, gallery content, cart and checkout flows, vouchers, customer feedback, order management, and notifications. The backend exposes a GraphQL API backed by Prisma and MariaDB.",
+      "status": "In development",
+      "location": "Nepal",
+      "services": ["Online ordering", "Customer accounts", "Order management", "Admin workflows"],
+      "tech": ["Next.js", "NestJS", "GraphQL", "Prisma", "MariaDB"],
+      "github": "",
+      "live": "",
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/kurakani-cafe.webp",
+      "video": "",
+      "order": 8
+    },
+    {
+      "category": "freelance",
+      "title": "Professional Portfolio Collection",
+      "description": "Three tailored portfolio experiences for Adarsha Pradhan, Bipula Shrestha, and Madhab Poudel. The sites present professional biographies, services, courses, creative work, galleries, media, ventures, and contact information through responsive, personality-led interfaces.",
+      "status": "Delivered",
+      "location": "Nepal",
+      "services": ["Personal branding", "Portfolio design", "Media galleries", "Responsive development"],
+      "tech": ["React", "Vite", "TypeScript", "Responsive UI", "SEO"],
+      "github": "",
+      "live": "",
+      "links": [
+        { "label": "Adarsha Pradhan", "url": "https://adarshapradhan.com.np/" },
+        { "label": "Bipula Shrestha", "url": "https://holisticminds.com.np/bipula-shrestha/" },
+        { "label": "Madhab Poudel", "url": "https://madhabpoudel.com.np/" }
+      ],
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/portfolio-collection.webp",
+      "video": "",
+      "order": 7
+    },
+    {
+      "category": "freelance",
+      "title": "Burger House Charikot Digital & POS Platform",
+      "description": "A restaurant ecosystem delivered across a public website, web POS, Electron desktop app, and Android/iOS mobile app in a three-week build cycle. It covers dine-in, pickup and delivery orders, tables, KOT/BOT routing, billing and printing, menu and inventory management, customers, staff, attendance, payroll, reports, and role-based access. The engagement also included branch installation and Facebook, Instagram, and TikTok setup.",
+      "status": "Live",
+      "location": "Nepal",
+      "services": ["Restaurant website", "Web, desktop & mobile POS", "KOT/BOT setup", "Digital presence & SEO"],
+      "tech": ["Next.js", "NestJS", "MariaDB", "React Native", "Electron", "SEO"],
+      "github": "",
+      "live": "https://burgerhousecharikot.com.np/",
+      "links": [
+        { "label": "Website", "url": "https://burgerhousecharikot.com.np/" },
+        { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=61594372436866" },
+        { "label": "Instagram", "url": "https://www.instagram.com/theburgerhousecharikot/" },
+        { "label": "TikTok", "url": "https://www.tiktok.com/@theburgerhousecharikot" }
+      ],
+      "isVisible": true,
+      "featured": true,
+      "image": "/images/projects/burger-house.webp",
+      "video": "",
+      "order": 0
+    },
+    {
+      "category": "freelance",
+      "title": "Ivy Reign",
+      "description": "A beauty and wellness commerce experience first delivered in WordPress and later migrated to Shopify. The current storefront combines product discovery and online purchasing with ritual-based service reservations, customer accounts, and a responsive editorial presentation.",
+      "status": "Live",
+      "location": "Australia",
+      "services": ["WordPress website", "Shopify migration", "E-commerce", "Service reservations"],
+      "tech": ["WordPress", "Shopify", "Liquid", "Responsive UI"],
+      "github": "",
+      "live": "https://ivyreign.com/",
+      "links": [
+        { "label": "Website", "url": "https://ivyreign.com/" }
+      ],
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/ivy-reign.webp",
+      "video": "",
+      "order": 1
+    },
+    {
+      "category": "freelance",
+      "title": "Sayteo Marketplace",
+      "description": "An in-progress multi-vendor commerce platform for web and mobile. The codebase covers customer, seller, and administrator experiences; product catalogues and categories; carts, wishlists, checkout, orders, payments, coupons, campaigns, reviews, vendor approval, support messaging, and real-time notifications.",
+      "status": "Under construction",
+      "location": "Nepal",
+      "services": ["E-commerce platform", "Vendor portal", "Admin portal", "Mobile experience"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "Stripe", "Socket.IO"],
+      "github": "",
+      "live": "https://sayteo.com/",
+      "links": [
+        { "label": "Website", "url": "https://sayteo.com/" }
+      ],
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/sayteo.webp",
+      "imageFit": "contain",
+      "video": "",
+      "order": 9
+    },
+    {
+      "category": "freelance",
+      "title": "Third Eye Arts & Crafts",
+      "description": "An in-progress commerce platform for arts, crafts, sacred products, and lifestyle collections. It includes product discovery, comparison, wishlists, cart and checkout, order management, customer accounts, notifications, content-led brand pages, and administration for products, users, orders, access control, enquiries, and site content.",
+      "status": "Under construction",
+      "location": "Nepal",
+      "services": ["E-commerce website", "Product catalogue", "Admin portal", "Content management"],
+      "tech": ["Next.js", "NestJS", "PostgreSQL", "Prisma", "Material UI"],
+      "github": "",
+      "live": "https://thirdeyeartsandcrafts.com.np/",
+      "links": [
+        { "label": "Website", "url": "https://thirdeyeartsandcrafts.com.np/" }
+      ],
+      "isVisible": true,
+      "featured": false,
+      "image": "/images/projects/third-eye.webp",
+      "imageFit": "contain",
+      "video": "",
+      "order": 10
+    }
+  ]
+}
