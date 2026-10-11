@@ -30,6 +30,13 @@ export default function Contact() {
       external: false,
     },
     {
+      label: "Phone",
+      value: profile.phone,
+      href: `tel:${profile.phone}`,
+      icon: <PhoneIcon sx={{ fontSize: 19 }} />,
+      external: false,
+    },
+    {
       label: "GitHub Personal",
       value: profile.github,
       href: profile.github,
@@ -42,13 +49,6 @@ export default function Contact() {
       href: profile.githubWork,
       icon: <GitHubIcon sx={{ fontSize: 19 }} />,
       external: true,
-    },
-    {
-      label: "Phone",
-      value: profile.phone,
-      href: `tel:${profile.phone}`,
-      icon: <PhoneIcon sx={{ fontSize: 19 }} />,
-      external: false,
     },
   ].filter((link) => Boolean(link.value));
 
